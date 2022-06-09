@@ -8,12 +8,41 @@
     background-size: cover;
   }
 
-  .custom-logo{
-    height: 90px;
-    width: 100px;
+  .main-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fb7102;
+    padding: 10px 28px;
+    height: 80px;
   }
 
-  #bg{
-    background-color: darkorange;
-    color: white;
-  }
+.main-action {
+  font-size: 16px;
+	text-decoration: none;
+	color: #000;
+  margin: 20px;
+}
+.main-action:hover {
+	color: rgba(39, 36, 34, 0.747);
+}
+
+.custom-logo{
+  height: 90px;
+  width: 100px;
+}
+#logo {
+	width: 140px;
+}
+#img-produtos{
+  border-radius: 2px;
+}
+
+#carousel-slide-two{
+  height: 309px;
+  width: 257px;
+}
+
+.carousel-item{
+  height: 0;
+}
