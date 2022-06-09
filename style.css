@@ -50,15 +50,24 @@
 .carousel-item{
   height: 0;
 }
-.btn-primary {
+.btn {
   color: #fff;
   border-color: #722c2d;
   background-color: #722c2d;
+  width: 200px;
+  height: 50px;
 }
 
-.btn-primary:hover {
+.btn:hover {
   border-color: #722c2d;
   background-color: #722c2dde;
+  color: #fff;
+}
+
+.btn:active{
+   background-color: #fb7102;
+   color: #fff;
+   border-color: #fb7102;
 }
 
 * {box-sizing: border-box}
