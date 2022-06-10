@@ -34,22 +34,16 @@
 #logo {
 	width: 140px;
 }
-#img-produtos{
-  border-radius: 2px;
-}
-
-#carousel-slide-two{
-  height: 309px;
-  width: 257px;
-}
 
 #img-card{
   height: 370px;
+  width: 400px;
 }
 
 .carousel-item{
   height: 0;
 }
+
 .btn {
   color: #fff;
   border-color: #722c2d;
