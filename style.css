@@ -21,7 +21,7 @@
   font-size: 16px;
   text-decoration: none;
   color: #fb7102;
-  margin: 20px;
+  margin: 0.625rem;
 }
 
 .main-action:hover {
@@ -163,6 +163,10 @@ img {
 @media only screen and (max-width: 300px) {
   .prev, .next, .text {
     font-size: 11px
+  }
+  .main-action{
+    font-size: 14px;
+    margin: 0;
   }
 }
 
